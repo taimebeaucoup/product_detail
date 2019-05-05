@@ -4,6 +4,18 @@ color: darkorchid
 .ownclass {
     color: lemonchiffon;
 }
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+}
+
 @media (max-width: 600px) {
     h1 {
       color: olive;
