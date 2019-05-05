@@ -14,12 +14,33 @@ color: darkorchid
   height: 500px;
   display: flex;
   overflow-x: auto;
-
+  scroll-behavior: smooth;
 }
 .slide {
   width: 500px;
   flex-shrink: 0;
   height: 100%;
+}
+
+.sliderButtons {
+  
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #74ABE2, #5563DE);
+  font-family: 'Ropa Sans', sans-serif;
 }
 
 
