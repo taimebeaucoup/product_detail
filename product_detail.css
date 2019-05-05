@@ -5,13 +5,14 @@ color: darkorchid
     color: lemonchiffon;
 }
 .slider {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   display: flex;
   overflow-x: auto;
+
 }
 .slide {
-  width: 300px;
+  width: 500px;
   flex-shrink: 0;
   height: 100%;
 }
@@ -19,6 +20,14 @@ color: darkorchid
 @media (max-width: 600px) {
     h1 {
       color: olive;
+    }
+    .slide {
+      width: 300px;
+    }
+    .slider {
+      width: 300px;
+      height: 300px;
+    
     }
 
 }
