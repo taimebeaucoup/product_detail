@@ -1,8 +1,13 @@
 h1 {
 color: darkorchid    
 }
-.ownclass {
-    color: lemonchiffon;
+.listImage {
+  width: 50px;
+  height: 50px;
+}
+.listItem
+{
+  display: flex;
 }
 .slider {
   width: 500px;
@@ -16,6 +21,7 @@ color: darkorchid
   flex-shrink: 0;
   height: 100%;
 }
+
 
 @media (max-width: 600px) {
     h1 {
