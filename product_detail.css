@@ -1,14 +1,21 @@
+* {
+  margin:0;
+}
+
 h1 {
 color: white; 
 font-size: 5rem; 
 display: flex-start;  
 }
+
+ul.a {
+  list-style-type: square;
+}
 .listImage {
   width: 50px;
   height: 50px;
 }
-.listItem
-{
+.listItem{
   display: flex;
 }
 .slider {
@@ -33,36 +40,63 @@ display: flex-start;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin: 0 0 0.5rem 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  margin-right: 15px;
   position: relative;
 }
 
-.description
-{
-  width: 700px;
+.featureList{
+  width: 100%;
 }
 
 .textPos{
-  display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.layout{
+  justify-content: flex-end;
+  align-content: center;
+  align-items:flex-end;
+  flex-direction: row;
 }
 
 body {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  background: linear-gradient(to bottom, #00ffed, #fb36f4);
+  padding: 2em;
+  background: linear-gradient(to bottom, #def4e4, #f4f4bd);
   font-family: 'Ropa Sans', sans-serif;
 }
 
+.layoutFlex{
+display: flex;  
+flex-flow: row wrap;
+}
 
+.alignBox{
+flex: 0 1 50%;
+justify-content: center;
+align-items: center;
+align-content: space-between;
+}
+
+.styleBox{
+background-color: darkgreen;
+
+}
+
+
+.descriptionText{
+color: aliceblue;
+
+}
 @media (max-width: 600px) {
     h1 {
       color: olive;
-      font-display: 
+      font-size: 3rem;
     }
     .slide {
       width: 350px;
