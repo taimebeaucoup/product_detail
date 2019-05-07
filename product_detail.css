@@ -37,6 +37,7 @@ ul.a {
   height: 1.5rem;
   background: white;
   text-decoration: none;
+  align-content: center;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -84,13 +85,19 @@ align-content: space-between;
 }
 
 .styleBox{
-background-color: darkgreen;
+padding-top: 3em;
+}
+.title{
+font-style: oblique;
+margin-bottom: 4px;
+text-decoration: underline;
 
 }
 
-
 .descriptionText{
-color: aliceblue;
+color: blueviolet;
+margin-top: 16px;
+margin-bottom: 16px;
 
 }
 @media (max-width: 600px) {
