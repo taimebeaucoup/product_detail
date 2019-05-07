@@ -1,5 +1,6 @@
 h1 {
-color: darkorchid    
+color: white; 
+font-size: 5rem;   
 }
 .listImage {
   width: 50px;
@@ -10,20 +11,19 @@ color: darkorchid
   display: flex;
 }
 .slider {
-  width: 500px;
-  height: 500px;
+  width: 700px;
+  height: 600px;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
 }
 .slide {
-  width: 500px;
+  width: 700px;
   flex-shrink: 0;
   height: 100%;
 }
 
 .sliderButtons {
-  
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -38,14 +38,15 @@ color: darkorchid
 
 .description
 {
-  width: 700px
+  width: 700px;
+  position: relative;
 }
 
 body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(to bottom, #74ABE2, #5563DE);
+  background: linear-gradient(to bottom, #00ffed, #fb36f4);
   font-family: 'Ropa Sans', sans-serif;
 }
 
@@ -53,12 +54,13 @@ body {
 @media (max-width: 600px) {
     h1 {
       color: olive;
+      font-display: auto;
     }
     .slide {
-      width: 300px;
+      width: 350px;
     }
     .slider {
-      width: 300px;
+      width: 350px;
       height: 300px;
     
     }
