@@ -6,6 +6,7 @@ h1 {
 color: white; 
 font-size: 5rem; 
 display: flex-start;  
+margin-bottom: 15px;
 }
 
 ul.a {
@@ -19,26 +20,27 @@ ul.a {
   display: flex;
 }
 .slider {
-  width: 700px;
+  width: 620px;
   height: 600px;
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
 }
 .slide {
-  width: 700px;
+  width: 680px;
   flex-shrink: 0;
   height: 100%;
 }
 
 .sliderButtons {
   display: inline-flex;
+  flex-direction: row;
   width: 1.5rem;
   height: 1.5rem;
   background: white;
   text-decoration: none;
-  align-content: center;
   align-items: center;
+  align-content: center;
   justify-content: center;
   border-radius: 50%;
   margin-top: 15px;
@@ -82,6 +84,7 @@ flex: 0 1 50%;
 justify-content: center;
 align-items: center;
 align-content: space-between;
+
 }
 
 .styleBox{
@@ -95,7 +98,9 @@ text-decoration: underline;
 }
 
 .descriptionText{
-color: blueviolet;
+color: white;
+background-color: #def4e4;
+padding-inline-end: 15px;
 margin-top: 16px;
 margin-bottom: 16px;
 
