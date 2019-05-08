@@ -140,7 +140,7 @@ margin-bottom: 16px;
 
 
 }
-@media (max-width: 1300px) {
+@media (max-width: 1310px) {
 
   .alignBox{
   width: 100%;
@@ -148,8 +148,6 @@ margin-bottom: 16px;
   .layoutFlex{
     display: inline-block;
   }
-
-
   body{
     display: inline-block;
     align-items: center;
