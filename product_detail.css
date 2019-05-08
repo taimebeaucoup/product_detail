@@ -4,7 +4,7 @@
 
 h1 {
 color: white; 
-background: linear-gradient(to bottom, #def4e4, #f4f4bd);
+background: #C77B8C;
 font-size: 5rem; 
 display: flex;  
 align-content: center;
@@ -66,7 +66,7 @@ ul.a {
 .featureList{
   width: 100%;
   font-family: 'Lora', serif;
-  font-size: 20px;
+  font-size: 15px;
   font-style: italic;
   margin-top: 30px;
 flex: 0 1 50%;
@@ -92,6 +92,8 @@ align-content: center;
 
 body {
   padding: 5rem;
+  color:#6AB1CC;
+  background-color: #FFFBEA;
 
 }
 
@@ -131,7 +133,7 @@ margin-bottom: 2px;
 .descriptionText{
 color: black;
 font-family: 'Lora', serif;
-font-size: 30px;
+font-size: 20px;
 padding-inline-end: 15px;
 margin-top: 16px;
 margin-bottom: 16px;
@@ -169,7 +171,7 @@ margin-bottom: 16px;
     }
     .alignBox{
     width: 100%;
-    
+
     }
     .layoutFlex{
       display: inline-block;
